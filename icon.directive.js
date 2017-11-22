@@ -1,5 +1,5 @@
 angular
-	.module('icon.directive')
+	.module('icon.directive', [])
 	.directive('icon', icon);
 
 function icon() {
